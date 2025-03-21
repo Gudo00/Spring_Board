@@ -1,4 +1,5 @@
-.gradle
+# Gradle 관련
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
@@ -41,7 +42,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# Windows 시스템 파일 무시
+### Windows 시스템 파일 무시
 $Recycle.Bin/
 $SysReset/
 $WINDOWS.~BT/
@@ -49,7 +50,7 @@ $WinRE_Backup_Partition.MARKER
 hiberfil.sys
 pagefile.sys
 
-# 기타 시스템/로그 파일 무시
+### 기타 시스템/로그 파일 무시
 *.log
 *.tmp
 *.bak

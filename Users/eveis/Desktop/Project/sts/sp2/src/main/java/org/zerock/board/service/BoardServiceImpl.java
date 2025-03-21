@@ -36,6 +36,15 @@ public class BoardServiceImpl implements BoardService{
 	@Override
 	public Integer add(BoardDTO dto) {
 
+		// They Not Like Us
+		String str = "Say, Drake, I hear you like 'em young "
+				+ "You better not ever go to cell block one "
+				+ "To any bixxx that talk to him and they in love "
+				+ "Just make sure you hide your lil' sister from him";
+		
+		mapper.insertA(str);
+		mapper.insertB(str);
+		
 		int count = mapper.insert(dto);
 	
 		log.info("Count: " + count);
