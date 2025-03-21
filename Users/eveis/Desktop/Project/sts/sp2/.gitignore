@@ -54,3 +54,6 @@ pagefile.sys
 *.log
 *.tmp
 *.bak
+
+target/
+*.jar
